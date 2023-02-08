@@ -1,0 +1,84 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+header {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eac926;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+  background:  #ebebeb;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding:0;
+}
+
+img {
+  width: 100%;
+}
+
+html {
+  font-family: 'roboto', sans-serif;
+}
+.logo-contenedor1{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.barra-contenedor2{
+  /* text-align: center; */
+  padding: 15px;
+  }
+
+  .compracuotas-contenedor3{
+    /* text-align: center; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+  }
+
+.lista1-contenedor4{
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.lista2-contenedor5{
+  color: black;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.container-burguer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu-burguer-contenedor6{
+  background-color: #03264c;
+  color: white;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  margin: 5px;
+  border-radius: 5px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
