@@ -1,0 +1,133 @@
+/* Tablet */
+@media (min-width: 768px) {
+    .top-header {
+        flex-direction: row;
+    }
+    .logo-barra-container {
+        width: 50%;
+    }
+    
+    .compracuotas-contenedor3 {
+        display: flex;
+        width: 50%;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .compracuotas-contenedor3 h2 {
+    font-size: 16px;
+    }
+    
+    .container-burguer{
+        display: none;
+    }
+    
+    .listas {
+    display: flex;
+    justify-content: center;
+    column-gap: 240px;
+    padding: 10px;
+    }
+    
+    ul{
+        display: flex;
+        width: 45%;
+        justify-content: space-between;
+    }
+    
+    /**Productos*/
+    .articulos-visitados, .ofertas{
+        height: 860px;
+    }
+    
+    .productos {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .productos article{
+        width: 49%;
+    }
+    
+    article {
+        height: 28em;
+        transition: all 0.4s ease-in;
+    }
+    
+    .main-article h4{
+        position: relative;
+        bottom: 40px;
+        z-index:-1;
+        opacity: 0;
+        transition: all 0.4s ease-in;
+    }
+    
+    
+    .descripcion {
+        display: flex;
+        opacity:0;
+    }
+}
+    
+    
+    
+    /* Desktop */
+    @media (min-width: 1024px) {
+        .articulos-visitados, .ofertas{
+            height: 295px;
+        }
+        
+        .productos article{
+            width: 24%;
+        }
+        
+        .precio, .descuento {
+            font-size: 14px;
+        }
+        .descripcion{
+            opacity:0;
+            transition:1s;
+        }
+        article:hover .descripcion{
+            opacity:1
+        }
+        section {
+            height: 19em;
+        }
+        article {
+            height: 18em;
+        }
+        
+        article:hover {
+            height: 19em;
+            box-shadow: 0px 0px 10px rgb(100 100 100);
+        }
+
+        
+        .articulos-visitados i{
+            transition: 500ms;
+        }
+        article:hover .articulos-visitados i{
+            transform: rotate(-90deg);
+        }
+        
+    }
+    /* TV hasta 1366 */
+    @media (min-width: 1200px) {
+    
+    .articulos-visitados, .ofertas{
+        height: 380%;
+    }
+    
+    article{
+        height: 22.5em;
+    }
+    
+    article:hover{
+        height: 24em;
+    }
+    
+    }
+    
